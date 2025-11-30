@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Ti 💌</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Crimson+Pro:wght@400;500&display=swap');
+
+    body {
+      background: linear-gradient(180deg, #b3e5fc, #e1f5fe); /* 💙 azul pastel suave */
+      font-family: 'Crimson Pro', serif;
+      color: #4a3c3c;
+      text-align: center;
+      padding: 50px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    .carta {
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 25px;
+      padding: 40px;
+      max-width: 650px;
+      margin: auto;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      animation: slideUp 1.2s ease;
+    }
+
+    @keyframes slideUp {
+      from {transform: translateY(30px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 48px;
+      color: #c2185b;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 18px;
+    }
+
+    img.decoracion {
+      width: 120px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    img.decoracion:hover {
+      transform: scale(1.05);
+    }
+
+    .firma {
+      font-family: 'Great Vibes', cursive;
+      font-size: 26px;
+      color: #c2185b;
+      margin-top: 25px;
+    }
+        /* 💕 Aquí agregas el botón */
+    .volver {
+      display: inline-block;
+      background: linear-gradient(90deg, #ff7b89, #ff5270);
+      color: white;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'Georgia', serif;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(255, 105, 135, 0.4);
+      animation: aparecer 1s ease forwards;
+    }
+
+    .volver:hover {
+      background: linear-gradient(90deg, #ff5270, #ff7b89);
+      transform: scale(1.07);
+      box-shadow: 0 6px 20px rgba(255, 82, 112, 0.5);
+    }
+
+    /* ✨ Animación del botón */
+    @keyframes aparecer {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <h1>💌 Para Ti mi lindo niño (Hernan)</h1>
+    <p>Mi amor,</p>
+    <p>Quiero escribirte estas palabras porque a veces lo que siento se queda guardado, y tú mereces saberlo. Quiero que sepas que te amo muchísimo. Eres una parte muy importante de mi vida, y a pesar de todo, ese amor sigue creciendo dentro de mí</p>
+    <p><strong>Te amo.</strong></p>
+    <p>A veces extraño a la persona que eras antes: más amoroso, más cariñoso, más atento… lo sé. Sé que esa versión de ti ya no existe, que has cambiado, que la vida también te ha hecho diferente. Y aunque a veces me duele, también entiendo que todos evolucionamos, y quiero aprender a amar al hombre que eres ahora, no solo al que recuerdo</p> 
+    <img src="descarga.jpg" alt="Decoración romántica" class="decoracion">
+    <p>Porque incluso con esos cambios, sigo eligiéndote.</p>
+    <p><strong>Sigo amándote.</strong></p>
+    <p>También quiero pedirte perdón. A veces soy egoísta… a veces quiero tenerte solo para mí, y olvido que tú también necesitas tu espacio, tu tiempo, tus amigos, tu mundo fuera de nosotros. Estoy aprendiendo a entenderlo, a respetarlo y a no sentir miedo cuando no estás cerca.</p>
+    <p>Confío en ti, y quiero ser una persona mejor para nosotros.</p>
+    <p>Solo quería que lo supieras: te amo, te extraño a veces, te acepto siempre, y sigo aquí, eligiéndote con todo lo que eres hoy</p>
+    
+    <img src="descarga (1).jpg" alt="Decoración romántica" class="decoracion">
+    
+    <div class="firma">Con amor,<br>Rebeca</div>
+    
+    <img src="amy1.jpeg" alt="Imagen decorativa" style="width:150px; margin-bottom:20px; border-radius:10px;">
+  </div>
+  <div style="text-align: center; margin-top: 40px;">
+  <a href="index.html" class="volver">📩 Cerrar Carta</a>
+  </div>
+</body>
+</html>
