@@ -3,126 +3,157 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Para Ti 💌</title>
+  <title>💌 Para Ti, Mi Amor</title>
+
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Crimson+Pro:wght@400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Quicksand:wght@400;500&display=swap');
 
     body {
-      background: linear-gradient(180deg, #b3e5fc, #e1f5fe); /* 💙 azul pastel suave */
-      font-family: 'Crimson Pro', serif;
-      color: #4a3c3c;
+      background: radial-gradient(circle at top, #ffe0ef, #ffd9ec, #e8d9ff);
+      margin: 0;
+      padding: 40px 15px;
+      font-family: 'Quicksand', sans-serif;
+      animation: fadeIn 1.4s ease;
       text-align: center;
-      padding: 50px;
-      animation: fadeIn 1s ease-in;
     }
 
     @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     .carta {
-      background: rgba(255, 255, 255, 0.92);
-      border-radius: 25px;
-      padding: 40px;
-      max-width: 650px;
+      background: #ffffffdd;
+      padding: 40px 35px;
+      max-width: 750px;
       margin: auto;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      border-radius: 30px;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.15);
+      backdrop-filter: blur(3px);
+      border: 2px solid #ffbcd6;
       animation: slideUp 1.2s ease;
     }
 
     @keyframes slideUp {
-      from {transform: translateY(30px); opacity: 0;}
-      to {transform: translateY(0); opacity: 1;}
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
 
     h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 48px;
-      color: #c2185b;
-      margin-bottom: 10px;
+      font-family: 'Playfair Display', serif;
+      font-size: 46px;
+      color: #b83c7a;
+      margin-bottom: 8px;
+    }
+
+    .sub {
+      font-size: 18px;
+      color: #5a4860;
+      margin-bottom: 25px;
     }
 
     p {
-      font-size: 18px;
+      font-size: 19px;
       line-height: 1.8;
-      margin-bottom: 18px;
+      color: #4f3d50;
+      text-align: justify;
+      margin-bottom: 22px;
     }
 
-    img.decoracion {
-      width: 120px;
-      border-radius: 15px;
-      margin-bottom: 25px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    .decoracion {
+      width: 130px;
+      margin: 25px auto;
+      display: block;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
       transition: transform 0.3s ease;
     }
 
-    img.decoracion:hover {
-      transform: scale(1.05);
+    .decoracion:hover {
+      transform: scale(1.06);
     }
 
     .firma {
-      font-family: 'Great Vibes', cursive;
+      font-family: 'Playfair Display', serif;
       font-size: 26px;
-      color: #c2185b;
-      margin-top: 25px;
+      margin-top: 40px;
+      color: #b43e76;
     }
-        /* 💕 Aquí agregas el botón */
+
+    /* Botón */
     .volver {
       display: inline-block;
-      background: linear-gradient(90deg, #ff7b89, #ff5270);
+      margin-top: 35px;
+      background: linear-gradient(90deg, #c1407e, #e45895);
       color: white;
-      padding: 12px 28px;
-      border-radius: 30px;
+      padding: 14px 36px;
+      font-size: 20px;
+      border-radius: 40px;
       text-decoration: none;
-      font-size: 18px;
-      font-family: 'Georgia', serif;
+      font-family: 'Quicksand', sans-serif;
+      box-shadow: 0 6px 20px rgba(209, 77, 129, 0.4);
       transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(255, 105, 135, 0.4);
-      animation: aparecer 1s ease forwards;
     }
 
     .volver:hover {
-      background: linear-gradient(90deg, #ff5270, #ff7b89);
       transform: scale(1.07);
-      box-shadow: 0 6px 20px rgba(255, 82, 112, 0.5);
-    }
-
-    /* ✨ Animación del botón */
-    @keyframes aparecer {
-      from {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      background: linear-gradient(90deg, #e45895, #c1407e);
+      box-shadow: 0 8px 24px rgba(209, 77, 129, 0.55);
     }
   </style>
 </head>
+
 <body>
+
   <div class="carta">
-    <h1>💌 Para Ti mi lindo niño (Hernan)</h1>
+
+    <h1>Para Ti Mi Gran Amor 💞</h1>
+    <div class="sub">(Hernan)</div>
+
     <p>Mi amor,</p>
-    <p>Quiero escribirte estas palabras porque a veces lo que siento se queda guardado, y tú mereces saberlo. Quiero que sepas que te amo muchísimo. Eres una parte muy importante de mi vida, y a pesar de todo, ese amor sigue creciendo dentro de mí</p>
-    <p><strong>Te amo.</strong></p>
-    <p>A veces extraño a la persona que eras antes: más amoroso, más cariñoso, más atento… lo sé. Sé que esa versión de ti ya no existe, que has cambiado, que la vida también te ha hecho diferente. Y aunque a veces me duele, también entiendo que todos evolucionamos, y quiero aprender a amar al hombre que eres ahora, no solo al que recuerdo</p> 
-    <img src="imagen 1.jpg" alt="Decoración romántica" class="decoracion">
-    <p>Porque incluso con esos cambios, sigo eligiéndote.</p>
-    <p><strong>Sigo amándote.</strong></p>
-    <p>También quiero pedirte perdón. A veces soy egoísta… a veces quiero tenerte solo para mí, y olvido que tú también necesitas tu espacio, tu tiempo, tus amigos, tu mundo fuera de nosotros. Estoy aprendiendo a entenderlo, a respetarlo y a no sentir miedo cuando no estás cerca.</p>
-    <p>Confío en ti, y quiero ser una persona mejor para nosotros.</p>
-    <p>Solo quería que lo supieras: te amo, te extraño a veces, te acepto siempre, y sigo aquí, eligiéndote con todo lo que eres hoy</p>
-    
-    <img src="imagen 1.jpg" alt="Decoración romántica" class="decoracion">
-    
-    <div class="firma">Con amor,<br>Rebeca</div>
-    
-    <img src="amy1.jpeg" alt="Imagen decorativa" style="width:150px; margin-bottom:20px; border-radius:10px;">
+
+    <p>
+      Quise escribirte esta carta porque a veces lo que siento se queda en mi pecho, y tú mereces conocerlo.  
+      Te amo más de lo que a veces logro expresar, y eres una parte profundamente importante para mí.
+    </p>
+
+    <p><strong>Te amo. Y te sigo amando todos los días.</strong></p>
+
+    <p>
+      A veces extraño la versión de ti que recuerdo: más amoroso, más cariñoso, más atento…  
+      Sé que esa persona quedó atrás, que has cambiado y aunque a veces me duela, también entiendo que todos crecimos, evolucionamos y cambiamos.
+    </p>
+
+    <img src="imagen1.jpg" class="decoracion" alt="Decoración">
+
+    <p>
+      Quiero aprender a amar cada versión de ti.  
+      El que fuiste, el que eres ahora y el que serás mañana. Porque incluso con esos cambios, mi corazón sigue eligiéndote.
+    </p>
+
+    <p><strong>Sigo amándote. Sigo creyendo en nosotros.</strong></p>
+
+    <p>
+      También quiero pedirte perdón. A veces soy egoísta, lo sé…  
+      A veces quiero tenerte solo para mí y olvido que tú también necesitas tu espacio, tu tiempo, tu vida con tus amigos.  
+      Estoy aprendiendo a entenderlo sin miedo, sin inseguridad y sin tristeza.
+    </p>
+
+    <p>
+      Estoy creciendo contigo, y quiero ser mejor para ti, para nosotros.
+      Solo quiero que recuerdes esto: te amo, te extraño a veces, te acepto siempre, y sigo eligiéndote todos los días.
+    </p>
+
+    <img src="amy1.jpeg" class="decoracion" alt="Decoración">
+
+    <div class="firma">
+      Con amor,<br>
+      Rebeca
+    </div>
   </div>
-  <div style="text-align: center; margin-top: 40px;">
-  <a href="index.html" class="volver">📩 Cerrar Carta</a>
-  </div>
+
+  <a href="index.html" class="volver">💌 Volver</a>
+
 </body>
 </html>
+
